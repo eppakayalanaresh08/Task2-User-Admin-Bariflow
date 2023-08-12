@@ -1,0 +1,123 @@
+<div class="nav-container">
+    <img [src]=path alt="Bariflo" class="imageclass">
+    <button class="logoutclass">Logout</button>
+</div>  
+<div class="user-container">
+<div class="user-left">
+    <div class="user-admin">
+    <i class="fa-regular fa-circle-user fa-2xl usericon"></i>
+    <p class="welcome-name">Welcome Admin</p>
+</div>
+<div class="admin-acount-users">
+    <div class="user-eachClass">
+        <i class="fas fa-tachometer-alt user-icon"></i>
+
+    <p class="admin-acount">Dashboard</p>
+</div>
+<div class="user-eachClass">
+    <i class="fa-solid fa-chalkboard-user user-icon"></i>
+
+    <p class="admin-acount">Employees</p>
+</div>
+<div class="user-eachClass">
+    <i class="fas fa-file-alt user-icon"></i>
+
+    <p class="admin-acount">Report</p>
+</div>
+</div>
+
+</div>
+
+<div class="container-plane">
+
+<div class="user-emoployees-container">
+    <div class="each-emoployees">
+        <i class="fa-solid fa-user-group group-icon"></i>
+        <a routerLink="/activeEmployee">
+        <div class="each-component">
+            <p class="number">24</p>
+            <p class="redirect-empolyee">Active Employees</p>
+        </div>
+    </a>
+</div>
+    <div class="each-emoployees">
+        <i class="fa-solid fa-user-check user-check-icon"></i>
+        <a routerLink="/presentEmployee">
+        <div class="each-component">
+            <p class="number">13</p>
+            <p class="redirect-empolyee">Present Employees</p>
+        </div>
+    </a>
+    </div >
+    <div class="each-emoployees">
+        <i class="fa-solid fa-user-xmark user-xmark-icon"></i>
+        <a routerLink="/absentEmployee">
+        <div class="each-component">
+            <p class="number">5</p>
+            <p class="redirect-empolyee">Absent Employees</p>
+        </div>
+    </a>
+        
+    </div>
+    <div class="each-emoployees">
+        <i class="fa-regular fa-clock clock-icon"></i> 
+        <a routerLink="/lateEmployee">
+        <div class="each-component">
+            <p  class="number">8</p>
+            <p class="redirect-empolyee">Late Employees</p>
+        </div>
+
+    </a>
+</div>
+</div>
+
+    <div class="notification-panel">
+    <i class="fa-solid fa-bell"></i>
+<p class="item-Panel">Notification Panel</p>
+</div>
+<hr class="line-items" />
+
+<div class="table-container">
+
+
+ 
+    <table border="1" class="tableitems">
+        <tr  >
+        <td >SR NO</td>
+        <td>Emloyeee code</td>
+        <td>Name</td>
+        <td>PunchDate</td>
+        <td>Status</td>
+    </tr>
+        <tr *ngFor="let m of arrElement;">
+            <td class="eachNo">
+         {{m.srNo}}
+            </td>
+            <td class="eachcode">
+                {{m.code}}
+            </td>
+        
+                   <td class="eachname">
+                       {{m.name}}
+                   </td>
+                   <td class="eachdate">
+                    {{m.date}}
+                       </td>
+                       <td class="eachstatus">
+                           {{m.status}}
+                       </td>
+                      
+    
+        </tr>
+    
+    </table>
+    
+    
+    
+    </div>
+    
+    
+
+</div>
+
+   

@@ -1,0 +1,197 @@
+.imageclass{
+    height:100px;
+    width:100px;
+}
+
+.nav-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoutclass{
+    background-color: #ff0b37;
+    color:#ffffff;
+    font-family:"Roboto";
+    height:40px;
+    width:80px;
+    border:none;
+    border-radius: 5px;
+}
+
+.usericon{
+    color:#ff0b37;
+}
+
+.user-left{
+    background-color:#383838;
+    height:100vh;
+    width:30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.user-admin{
+    text-align: center;
+    padding-top:60px;
+
+}
+
+.welcome-name{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size: 16px;
+}
+
+.admin-acount{
+    color:#ffffff;
+    font-size:16px;
+    padding-left:5px;
+}
+
+/* .circle-icon{
+    height:200px;
+    width:100px;
+} */
+
+.admin-acount-users{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.user-eachClass{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user-icon{
+    color:#ffffff;
+}
+
+.user-container{
+    display:flex;
+}
+
+.each-emoployees{
+    border:1px solid #94a3b8;
+    height:80px;
+    width:250px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.redirect-empolyee{
+    font-size:16px;
+    padding-top:0;
+    margin-top:0;
+
+}
+
+.user-emoployees-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:80vw;
+}
+
+.number{
+    font-size:15px;
+    margin-bottom:0;
+    text-align: center;
+}
+
+
+.each-component{
+    padding-left:5px;
+}
+
+
+.group-icon{
+color:skyblue;
+padding-left:5px;
+}
+
+.user-xmark-icon{
+    color:#ff0b37;
+    padding-left:5px;
+
+
+}
+
+.user-check-icon{
+    color:green;
+    padding-left:5px;
+
+}
+
+.clock-icon{
+    color:darkgoldenrod;
+    padding-left:5px;
+
+}
+
+.container-plane{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.tableitems{
+    border:1px solid #94a3b8;
+}
+
+.table-container{
+    padding-top:80px;
+    padding-left:40px;
+}
+
+.eachNo{
+    width:150px;
+}
+
+.eachcode{
+    width:300px;
+}
+
+.eachname{
+    width:200px;
+}
+
+
+.eachdate{
+    width:200px;
+}
+
+
+.eachstatus{
+    width:200px;
+}
+
+.notification-panel{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left:20px;
+}
+
+.item-Panel{
+  font-size:14px;
+  padding-left:5px;
+}
+
+.line-items{
+    width:80vw;
+}

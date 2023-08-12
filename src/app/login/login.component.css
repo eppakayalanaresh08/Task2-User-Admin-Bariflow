@@ -1,0 +1,49 @@
+/* Default styles for larger screens */
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .login-container {
+      width: 80%;
+      margin: 50px auto;
+      padding: 15px;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+      margin: 30px auto;
+      padding: 10px;
+    }
+  }
+  
+
+  .btn-login{
+    margin-top:20px;
+    background-color:  #3b82f6;
+    color:#ffffff;
+    font-family:"Roboto";
+    border:none;
+    border-radius:10px;
+    height:40px;
+    width:80px;
+  }
+
+  .form-group{
+    margin-top:20px;
+  }
+
+  .headingLabs{
+    color:#00306e;
+    font-family:"Bree Serif";
+  }
